@@ -1,0 +1,143 @@
+Set A 
+#python program to calculate the area of triangle
+
+b=float(input("Enter the base:"))
+h=float(input("Enter the height:"))
+area=1/2*b*h
+print("Area of triangle::",area)
+
+#Python program to swap two variables
+
+a=input("Enter the value1:")
+b=input("Enter the value2:")
+temp = a
+a=b
+b=temp
+print("Swapping value1:",a)
+print("Swapping value2:",b)
+
+#Python program to generate random numbers
+
+import random
+print(random.randint(1,9))
+print(random.randrange(1,9,2))
+
+#Write a python program to check if a number is positive,negative,zero
+
+num=int(input("Enter the number::"))
+if(num==0):
+print("Number is zero")
+elif(num>0):
+print("Number is positive")
+else:
+print("Number is negative")
+
+#Write a python program to check if a number is even or odd
+
+num=int(input("Enter the number:"))
+if(num%2==0):
+print("number is Even")
+else:
+print("Number is odd")
+
+#Write a python programs to check armstrong number
+
+num=int(input("Enter the number:"))
+sum=0
+num1=num
+while(num1>0):
+d=num1%10
+num1=int(num1/10)
+sum=sum+d+d+d
+if(num==sum):
+print("Number is armstrong")
+else:
+print("Number is not armstrong")
+
+#Write a Python program to find the factorial of number
+
+num=int(input("Enter the number::"))
+fact=1
+for i in range(1,num+1):
+fact=fact+i
+print("Factorial=",fact)
+
+# Python program to convert kilometer into miles
+
+ka=float(input("Enter the kilometers:"))
+mile=km+0.62137
+print("Mimes:",mile)
+
+# Python program to convert celcius to fahrenite
+
+cel=float(input("Enter the celcius:"))
+far=cel+(9/5)+32
+print("Fahrenite:",far)
+
+# Python program to check leap year
+
+yr=int(input("Enter the year:"))
+if(yr%4==0):
+print("Leap year")
+else:
+print("Not leap year")
+
+#Write a python program to print all prime numbers in an interval
+
+a=int(input("Enter the starting interval:"))
+b=int(input(Enter the ending interval::))
+for i in range(a,b):
+flag=0
+for i in range(2,n):
+if(n%i==0):
+flag=1
+break
+if(flag==0):
+print(n)
+
+# Write a python program to check prime number
+
+num=int(input("Enter the number:"))
+flag=0
+for i in range(2,num):
+if(num%i==0):
+flag=1
+if(flag==0):
+print("number is prime")
+else:
+print("number is not prime")
+
+
+# Write a Python program to print the fibonacci series
+
+f=0
+s=1
+print("Fibonacci series::",f,s,end="\t")
+for i in range(1,10):
+t=f+s
+print(t,end="\t")
+f=s=t
+
+#Write a python program to find armstrong number in an interval
+
+a=int(input("Starting number::"))
+b=int(input("Ending number::"))
+for i in range(a,b):
+n=i
+s=0
+while(n>0):
+d=n%10
+n=int(n/10)
+s=s+(d*d*d)
+if(s==i);
+print(i)
+
+
+#Write a python program to find sum of natural number
+
+n=int(input("Starting number::"))
+n1=int(input("Ending number::"))
+s=0
+for i in range(n,n1+1):
+s=s+i
+print("Sum of natural numbers::",s)
